@@ -34,3 +34,40 @@ C:\Users\aayush rai\Desktop\Projects\Gharghargasproject-backend\obj\Debug\net10.
 C:\Users\aayush rai\Desktop\Projects\Gharghargasproject-backend\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\aayush rai\Desktop\Projects\Gharghargasproject-backend\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\aayush rai\Desktop\Projects\Gharghargasproject-backend\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Gas\bin\Debug\net10.0\appsettings.Development.json
+C:\Gas\bin\Debug\net10.0\appsettings.json
+C:\Gas\bin\Debug\net10.0\Gharghargasproject-backend.staticwebassets.endpoints.json
+C:\Gas\bin\Debug\net10.0\Gharghargasproject-backend.exe
+C:\Gas\bin\Debug\net10.0\Gharghargasproject-backend.deps.json
+C:\Gas\bin\Debug\net10.0\Gharghargasproject-backend.runtimeconfig.json
+C:\Gas\bin\Debug\net10.0\Gharghargasproject-backend.dll
+C:\Gas\bin\Debug\net10.0\Gharghargasproject-backend.pdb
+C:\Gas\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Gas\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Gas\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Gas\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Gas\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.csproj.AssemblyReference.cache
+C:\Gas\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.AssemblyInfoInputs.cache
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.AssemblyInfo.cs
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.csproj.CoreCompileInputs.cache
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.sourcelink.json
+C:\Gas\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Gas\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Gas\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Gas\obj\Debug\net10.0\scopedcss\bundle\Gharghargasproject-backend.styles.css
+C:\Gas\obj\Debug\net10.0\staticwebassets.build.json
+C:\Gas\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Gas\obj\Debug\net10.0\staticwebassets.development.json
+C:\Gas\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Gas\obj\Debug\net10.0\swae.build.ex.cache
+C:\Gas\obj\Debug\net10.0\Gharghar.4EEA4FC8.Up2Date
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.dll
+C:\Gas\obj\Debug\net10.0\refint\Gharghargasproject-backend.dll
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.pdb
+C:\Gas\obj\Debug\net10.0\Gharghargasproject-backend.genruntimeconfig.cache
+C:\Gas\obj\Debug\net10.0\ref\Gharghargasproject-backend.dll
