@@ -23,40 +23,49 @@ public class AuthController : ControllerBase
     }
 
     // REGISTER
-    [HttpPost("register")]
-    public async Task<IActionResult> Register(RegisterDto dto)
+[HttpPost("register")]
+public async Task<IActionResult> Register(RegisterDto dto)
+{
+    if (!ModelState.IsValid)
+        return BadRequest(ModelState);
+
+    if (await _context.Users.AnyAsync(x => x.Email == dto.Email))
+        return BadRequest("Email already exists");
+
+    var user = new User
     {
-        if (await _context.Users.AnyAsync(x => x.Email == dto.Email))
-            return BadRequest("Email already exists");
+        FullName = dto.FullName,
+        Email = dto.Email,
+        PhoneNumber = dto.PhoneNumber,
+        District = dto.District,
+        PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
+    };
 
-        var user = new User
-        {
-            FullName = dto.FullName,
-            Email = dto.Email,
-            PhoneNumber = dto.PhoneNumber,
-            District = dto.District,
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
-        };
+    var otpCode = OtpGenerator.Generate();
 
+    var otp = new Otp
+    {
+        Email = dto.Email,
+        Code = otpCode,
+        ExpiryTime = DateTime.UtcNow.AddMinutes(5)
+    };
+
+    try
+    {
         _context.Users.Add(user);
-
-        var otpCode = OtpGenerator.Generate();
-
-        var otp = new Otp
-        {
-            Email = dto.Email,
-            Code = otpCode,
-            ExpiryTime = DateTime.UtcNow.AddMinutes(5)
-        };
-
         _context.Otps.Add(otp);
 
         await _context.SaveChangesAsync();
 
         await _emailService.SendOtp(dto.Email, otpCode);
 
-        return Ok("OTP sent");
+        return Ok("OTP sent successfully");
     }
+    catch (Exception ex)
+    {
+        return StatusCode(500, $"Error: {ex.Message}");
+    }
+}
 
     // VERIFY OTP
     [HttpPost("verify-otp")]

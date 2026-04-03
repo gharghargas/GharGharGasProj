@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GharGharGas.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b68095f6b52130da573aae8e4f9c1b86a32a6073")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7f77081e4e1784b8efadd0864b1c8b80130aea1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GharGharGas.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GharGharGas.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
